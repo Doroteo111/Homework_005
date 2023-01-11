@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class EXERCISE_2 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string nickname ;
+    public string password ;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        Login();
+        Debug.Log("Your login have be successful"); 
+    }
+    private bool Login()
+    {
+        if( nickname == "admin" &&  password == "abccba")
+        {
+            return true;
+
+        }
+        else
+        {
+            return false;
+        }
+
+            
+
+
     }
 }
