@@ -370,13 +370,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671706204}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdcac4a2d99f63e479484083cf021a8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nickname: "l\xF1oolo"
-  password: lol
+  nickname: aaa
+  password: lool
 --- !u!65 &671706206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090136474}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b8acdc39f5ee094da2a352c1a236466, type: 3}
   m_Name: 

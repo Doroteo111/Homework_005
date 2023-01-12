@@ -9,8 +9,16 @@ public class EXERCISE_2 : MonoBehaviour
 
     private void Start()
     {
-        Login();
-        Debug.Log("Your login have be successful"); 
+        if (Login())
+        {
+            Debug.Log("Your login have be successful");
+
+        }
+        else
+        {
+            Debug.Log("Your password or nickname are incorrect, try again.");
+        }
+        
     }
     private bool Login()
     {
@@ -22,6 +30,7 @@ public class EXERCISE_2 : MonoBehaviour
         else
         {
             return false;
+
         }
 
             
