@@ -9,7 +9,7 @@ public class EXERCISE_5 : MonoBehaviour
     private void Start()
     {
 
-        if (numbers.Length >= 5) //accedo al numero de elementos del array
+        if (numbers.Length >= 5) //access to the array list
         {
             Debug.Log($"First element = {numbers[0]}");
             Debug.Log($"Third element = {numbers[2]}");

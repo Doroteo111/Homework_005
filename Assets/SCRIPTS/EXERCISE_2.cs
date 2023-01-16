@@ -33,8 +33,5 @@ public class EXERCISE_2 : MonoBehaviour
 
         }
 
-            
-
-
     }
 }
